@@ -14,4 +14,6 @@ ethereal_inc = include_directories('include')
 # dependencies
 thread_dep = dependency('threads')
 
+subdir('data_struct')
+subdir('network')
 subdir('proxy')
